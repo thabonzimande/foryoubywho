@@ -2,7 +2,7 @@
 
 A beautiful, modern landing page for foryoubywho.com announcing the upcoming launch of a new age multimedia house.
 
-*Last updated: December 2024*
+*Last updated: December 2024 - Deployment triggered*
 
 ## Features
 
