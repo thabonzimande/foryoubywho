@@ -70,8 +70,7 @@
         }
       ],
       "destination": "https://$1",
-      "permanent": true,
-      "statusCode": 308
+      "permanent": true
     },
     {
       "source": "/(.*)",
@@ -82,8 +81,7 @@
         }
       ],
       "destination": "https://www.foryoubywho.com/$1",
-      "permanent": true,
-      "statusCode": 308
+      "permanent": true
     }
   ],
   "cleanUrls": true,
