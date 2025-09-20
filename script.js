@@ -15,16 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Add parallax effect to floating shapes (subtle)
+    // Scroll event listener for future effects
     window.addEventListener('scroll', function() {
-        const scrolled = window.pageYOffset;
-        const shapes = document.querySelectorAll('.floating-shape');
-        
-        shapes.forEach((shape, index) => {
-            const speed = 0.5 + (index * 0.1);
-            const yPos = -(scrolled * speed);
-            shape.style.transform = `translateY(${yPos}px)`;
-        });
+        // Removed floating shapes effect as elements no longer exist
     });
     
     // Add typing effect to the brand name (optional enhancement)

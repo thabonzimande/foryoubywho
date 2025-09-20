@@ -123,29 +123,12 @@ body {
         padding: 1rem;
     }
     
-    .email-form {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .email-input {
-        min-width: 280px;
-    }
-    
     .social-links {
         gap: 1.5rem;
-    }
-    
-    .floating-shape {
-        opacity: 0.5;
     }
 }
 
 @media (max-width: 480px) {
-    .email-input {
-        min-width: 250px;
-    }
-    
     .social-links {
         gap: 1rem;
     }
