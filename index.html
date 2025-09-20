@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; upgrade-insecure-requests;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
     <title>ForYouByWho - Coming Soon</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="hero-section">
-        <img src="Public/COMING SOON....png" alt="Coming Soon Hero" class="hero-image">
+        <img src="/Public/COMING SOON....png" alt="Coming Soon Hero" class="hero-image">
         <div class="hero-overlay"></div>
         
         <div class="container">
@@ -25,6 +29,6 @@
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 </html>
