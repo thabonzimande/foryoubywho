@@ -2,6 +2,8 @@
 
 A beautiful, modern landing page for foryoubywho.com announcing the upcoming launch of a new age multimedia house.
 
+*Last updated: December 2024*
+
 ## Features
 
 - **Modern Design**: Clean, minimalist design with gradient backgrounds and smooth animations
