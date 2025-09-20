@@ -1,0 +1,17 @@
+{
+  "name": "foryoubywho-landing",
+  "version": "1.0.0",
+  "description": "Coming soon landing page for ForYouByWho multimedia house",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": ["landing-page", "coming-soon", "multimedia", "foryoubywho"],
+  "author": "ForYouByWho",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
